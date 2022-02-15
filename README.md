@@ -1,12 +1,12 @@
 # Sorting-
 A Sorting Algorithm is used to rearrange a given array or list elements according to a comparison operator on the elements.
 
-# 1. Sorting 
+## 1. Sorting 
 The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The         algorithm maintains two subarrays in a given array.
   1) The subarray which is already sorted. 
   2) Remaining subarray which is unsorted.
   In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray. 
-# 2. Bubble Sort
+## 2. Bubble Sort
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.</br>
   Example:</br> 
   First Pass:</br> 
@@ -31,7 +31,7 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
   ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) </br>
   ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) </br>
   ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )</br>
-# 3. Recursive Bubble Sort
+## 3. Recursive Bubble Sort
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 Example: 
 First Pass: 
