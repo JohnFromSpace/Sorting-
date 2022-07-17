@@ -23,3 +23,13 @@ void recursiveInsertionSort(int arr[], int n){
   }
   arr[j + 1] = last;
 }
+
+int main(){
+    int arr[] = {12, 11, 13, 5, 6};
+    int n = sizeof(arr)/sizeof(arr[0]);
+  
+    recursiveInsertionSort(arr, n);
+    print(arr, n);
+  
+    return 0;
+}
