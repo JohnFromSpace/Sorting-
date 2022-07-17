@@ -29,7 +29,7 @@ int main(){
   int N = sizeof(arr) / sizeof(arr[0]); 
 
   insertionSort(arr, N); 
-  printArray(arr, N); 
+  print(arr, N); 
 
   return 0; 
 }
