@@ -66,4 +66,7 @@ The algorithm needs one **whole** pass without **any** swap to know it is sorted
 ## 4. Insertion Sort  
 ![image](https://user-images.githubusercontent.com/96446768/179427097-81599a65-2b85-46eb-988d-acd69be1294f.png)
 
+## 5. Recursive Insertion Sort
+![image](https://user-images.githubusercontent.com/96446768/179427572-0abe3aca-2eb4-4057-a2b3-56bd6a3fac6b.png)
+
 
