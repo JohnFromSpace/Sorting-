@@ -34,6 +34,9 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
   ( 1 **2 4** 5 8 ) –> ( 1 **2 4** 5 8 ) </br>
   ( 1 2 **4 5** 8 ) –> ( 1 2 **4 5** 8 ) </br>
   ( 1 2 4 **5 8** ) –> ( 1 2 4 **5 8** )</br>
+  
+  ![image](https://user-images.githubusercontent.com/96446768/179427354-31d5f7d2-2ecf-48c7-87ad-9aa34a7ce56a.png)
+
 ## 3. Recursive Bubble Sort
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.</br>
 **Example:**</br> 
