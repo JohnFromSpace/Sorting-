@@ -7,6 +7,12 @@ void print(int arr[], int n){
   std::cout << std::endl;
 }
 
+void swap(int& a, int& b){
+  int temp = a;
+  a = b;
+  b = temp;
+}
+
 void bubbleSort(int arr[], int n){
   if(n == 1){
     return;
