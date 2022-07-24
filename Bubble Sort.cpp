@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 void swapping(int &a, int &b)
 {
@@ -12,8 +11,8 @@ void swapping(int &a, int &b)
 void display(int* array, int size)
 {
   for(int i = 0; i < size; i++)
-    cout << array[i] << " ";
-  cout << endl;
+    std::cout << array[i] << " ";
+  std::cout << std::endl;
 }
 
 void bubbleSort(int* array, int size)
@@ -37,23 +36,23 @@ void bubbleSort(int* array, int size)
 int main()
 {
   int n;
-  cout << "Enter the number of elements: ";
-  cin >> n;
+  std::cout << "Enter the number of elements: ";
+  std::cin >> n;
   
   int arr[n];//create an array with given number of elements
-  cout << "Enter elements:" << endl;
+  std::cout << "Enter elements:" << endl;
   
   for(int i = 0; i < n; i++)
   {
-    cin >> arr[i];
+    std::cin >> arr[i];
   }
   
-  cout << "Array before sorting: ";
+  std::cout << "Array before sorting: ";
   display(arr, n);
   
   bubbleSort(arr, n);
   
-  cout << "Array after sorting: ";
+  std::cout << "Array after sorting: ";
   display(arr, n);
   
   return 0;
